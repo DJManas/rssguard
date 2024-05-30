@@ -11,7 +11,7 @@
     <message>
       <location filename="../src/librssguard/services/abstract/accountcheckmodel.cpp" line="190"/>
       <source>(feed)</source>
-      <translation>(kanál)</translation>
+      <translation>(zdroj)</translation>
     </message>
   </context>
   <context>
@@ -164,7 +164,7 @@ Chyba: %1</translation>
     <message>
       <location filename="../src/librssguard/network-web/apiserver.cpp" line="188"/>
       <source>account with ID %1 not found</source>
-      <translation type="unfinished">účet s ID %1 nenalezen</translation>
+      <translation>účet s ID %1 nenalezen</translation>
     </message>
   </context>
   <context>
@@ -197,7 +197,7 @@ Chyba: %1</translation>
     <message>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="1229"/>
       <source>Cannot add feed</source>
-      <translation>Nelze přidat kanál</translation>
+      <translation>Zdroj nelze přidat</translation>
     </message>
     <message>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="1230"/>
@@ -208,20 +208,20 @@ Chyba: %1</translation>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="1381"/>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="1393"/>
       <source>Node.js</source>
-      <translation type="unfinished">Node.js</translation>
+      <translation>Node.js</translation>
     </message>
     <message>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="1382"/>
       <source>Packages were NOT updated because of error: %2. Affected packages:
 %1</source>
-      <translation type="unfinished">Balíčky NEbyly aktualizovány. Příčinou je chyba: %2. Ovlivněné balíčky:
+      <translation>Balíčky NEbyly aktualizovány. Příčinou je chyba: %2. Ovlivněné balíčky:
 %1</translation>
     </message>
     <message>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="1394"/>
       <source>These packages were installed/updated:
 %1</source>
-      <translation type="unfinished">Tyto balíčky byly nainstalovány/aktualizovány:
+      <translation>Tyto balíčky byly nainstalovány/aktualizovány:
 %1</translation>
     </message>
     <message>
@@ -276,12 +276,12 @@ na tuto bublinu.</translation>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.ui" line="36"/>
       <source>Ignoring old articles</source>
-      <translation type="unfinished">Vynechávám starší články</translation>
+      <translation>Vynechávám starší články</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.ui" line="47"/>
       <source>Add articles with any date into the database</source>
-      <translation type="unfinished">Přídat články do databáze, bez ohledu na datum</translation>
+      <translation>Přídat články do databáze, bez ohledu na datum</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.ui" line="76"/>
@@ -291,22 +291,22 @@ na tuto bublinu.</translation>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.ui" line="85"/>
       <source>Absolute date/time</source>
-      <translation type="unfinished">Absolutní datum/čas</translation>
+      <translation>Úplný datum/čas</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.ui" line="92"/>
       <source>Relative time</source>
-      <translation type="unfinished">Relative time</translation>
+      <translation>Relativní čas</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.ui" line="170"/>
       <source>Limiting amount of articles in feeds</source>
-      <translation type="unfinished">Limiting amount of articles in feeds</translation>
+      <translation>Zdroj: Omezení množství článků</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.ui" line="181"/>
       <source>Customize article limits</source>
-      <translation type="unfinished">Customize article limits</translation>
+      <translation>Přizpůsobení omezení pro články</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.ui" line="210"/>
@@ -316,17 +316,17 @@ na tuto bublinu.</translation>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.ui" line="224"/>
       <source>Do not remove important articles</source>
-      <translation type="unfinished">Do not remove important articles</translation>
+      <translation>Nemazat důležité články</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.ui" line="231"/>
       <source>Do not remove unread articles</source>
-      <translation type="unfinished">Do not remove unread articles</translation>
+      <translation>Nemazat nepřečtené články</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.ui" line="238"/>
       <source>Just move articles to recycle bin, do not purge them</source>
-      <translation type="unfinished">Just move articles to recycle bin, do not purge them</translation>
+      <translation>Přesunutí článků do koše, bez smazání</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.cpp" line="11"/>
@@ -341,16 +341,16 @@ na tuto bublinu.</translation>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.cpp" line="22"/>
       <source>all articles</source>
-      <translation type="unfinished">all articles</translation>
+      <translation>všechny články</translation>
     </message>
     <message numerus="yes">
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.cpp" line="179"/>
       <source>newest article(s)</source>
-      <translation type="unfinished">
-        <numerusform>newest article(s)</numerusform>
-        <numerusform>newest article(s)</numerusform>
-        <numerusform>newest article(s)</numerusform>
-        <numerusform>newest article(s)</numerusform>
+      <translation>
+        <numerusform>nejnovější článek/ky</numerusform>
+        <numerusform>nejnovější článek/ky</numerusform>
+        <numerusform>nejnovější článek/ky</numerusform>
+        <numerusform>nejnovější článek/ky</numerusform>
       </translation>
     </message>
   </context>
@@ -390,10 +390,10 @@ na tuto bublinu.</translation>
       <location filename="../src/librssguard/gui/notifications/articlelistnotification.cpp" line="73"/>
       <source>%n feeds fetched</source>
       <translation>
-        <numerusform>%n kanál načten</numerusform>
-        <numerusform>%n kanály načteny</numerusform>
-        <numerusform>%n kanálů načteno</numerusform>
-        <numerusform>%n kanálů načteno</numerusform>
+        <numerusform>%n zdroj načten</numerusform>
+        <numerusform>%n zdroje načteny</numerusform>
+        <numerusform>%n zdrojů načteno</numerusform>
+        <numerusform>%n zdrojů načteno</numerusform>
       </translation>
     </message>
   </context>
@@ -451,7 +451,7 @@ na tuto bublinu.</translation>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.ui" line="45"/>
       <source>Some feeds require authentication, including GMail feeds. BASIC, NTLM-2 and DIGEST-MD5 authentication schemes are supported.</source>
-      <translation>Některé kanály vyžaduje autentizaci, a to včetně kanálů pro GMail. Je podporována autentizace BASIC, NTLM-2 a DIGEST-MD5.</translation>
+      <translation>Pro některé zdroj je nutné ověření (např. GMail). Je možné se ověřit pomocí: BASIC, NTLM-2 a DIGEST-MD5.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.ui" line="48"/>
@@ -461,7 +461,7 @@ na tuto bublinu.</translation>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.ui" line="25"/>
       <source>Authentication type</source>
-      <translation>Způsob autentizace</translation>
+      <translation>Způsob ověření</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.ui" line="60"/>
@@ -479,17 +479,17 @@ na tuto bublinu.</translation>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.cpp" line="16"/>
       <source>Set username to access the feed.</source>
-      <translation>Nastavte uživatelské jméno pro tento kanál.</translation>
+      <translation>Tento zdroj vyžaduje uživatelské jméno.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.cpp" line="18"/>
       <source>Set password to access the feed.</source>
-      <translation>Nastavte heslo pro tento kanál.</translation>
+      <translation>Tento zdroj vyžaduje heslo.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.cpp" line="20"/>
       <source>No authentication</source>
-      <translation>Bez autentizace</translation>
+      <translation>Bez ověření</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.cpp" line="22"/>
@@ -549,7 +549,7 @@ na tuto bublinu.</translation>
       <location filename="../src/librssguard/services/abstract/category.cpp" line="73"/>
       <source>Number of feeds: %1
 Number of categories: %2</source>
-      <translation>Počet kanálů: %1
+      <translation>Počet zdrojů: %1
 Počet kategorií: %2</translation>
     </message>
   </context>
@@ -571,22 +571,22 @@ Počet kategorií: %2</translation>
     <message>
       <location filename="../src/librssguard/database/databasecleaner.cpp" line="65"/>
       <source>Shrinking database file...</source>
-      <translation>Minimalizuji soubor databáze...</translation>
+      <translation>Optimalizuji databázi...</translation>
     </message>
     <message>
       <location filename="../src/librssguard/database/databasecleaner.cpp" line="70"/>
       <source>Database file shrinked...</source>
-      <translation>Databázový soubor minimalizován...</translation>
+      <translation>Databáze optimalizována...</translation>
     </message>
     <message>
       <location filename="../src/librssguard/database/databasecleaner.cpp" line="40"/>
       <source>Recycle bin purged...</source>
-      <translation>Koš vyčištěn...</translation>
+      <translation>Koš vysypán...</translation>
     </message>
     <message>
       <location filename="../src/librssguard/database/databasecleaner.cpp" line="35"/>
       <source>Purging recycle bin...</source>
-      <translation>Čistím koš...</translation>
+      <translation>Vysypávám koš...</translation>
     </message>
     <message>
       <location filename="../src/librssguard/database/databasecleaner.cpp" line="25"/>
@@ -596,7 +596,7 @@ Počet kategorií: %2</translation>
     <message>
       <location filename="../src/librssguard/database/databasecleaner.cpp" line="30"/>
       <source>Read articles purged...</source>
-      <translation>Přečtené zprávy smazány...</translation>
+      <translation>Přečtené zprávy vymazány...</translation>
     </message>
     <message>
       <location filename="../src/librssguard/database/databasecleaner.cpp" line="45"/>
@@ -606,7 +606,7 @@ Počet kategorií: %2</translation>
     <message>
       <location filename="../src/librssguard/database/databasecleaner.cpp" line="50"/>
       <source>Old articles purged...</source>
-      <translation>Staré zprávy smazány...</translation>
+      <translation>Staré zprávy vymazány...</translation>
     </message>
     <message>
       <location filename="../src/librssguard/database/databasecleaner.cpp" line="55"/>
@@ -616,7 +616,7 @@ Počet kategorií: %2</translation>
     <message>
       <location filename="../src/librssguard/database/databasecleaner.cpp" line="60"/>
       <source>Starred articles purged...</source>
-      <translation>Důležité zprávy smazány...</translation>
+      <translation>Důležité zprávy vymazány...</translation>
     </message>
   </context>
   <context>
@@ -690,7 +690,7 @@ Počet kategorií: %2</translation>
     <message>
       <location filename="../src/librssguard/network-web/downloadmanager.cpp" line="221"/>
       <source>Cannot open output file. Open it manually.</source>
-      <translation>Výstupní soubor nelze otevří, otevřete jej ručně.</translation>
+      <translation>Stažený soubor se nedaří otevřít, zkuste to manuálně.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/downloadmanager.cpp" line="231"/>
@@ -700,7 +700,7 @@ Počet kategorií: %2</translation>
     <message>
       <location filename="../src/librssguard/network-web/downloadmanager.cpp" line="232"/>
       <source>Cannot open output directory. Open it manually.</source>
-      <translation>Výstupní adresář nelze otevří, otevřete jej ručně.</translation>
+      <translation>Výstupní adresář nelze otevřít, zkuste to manuálně.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/downloadmanager.cpp" line="445"/>
@@ -872,12 +872,12 @@ Klikněte zde pro otevření nadřazeného adresáře.</translation>
     <message>
       <location filename="../src/librssguard-gmail/src/gui/emailrecipientcontrol.cpp" line="40"/>
       <source>Bcc</source>
-      <translation>Slepá kopie</translation>
+      <translation>Skrytá kopie</translation>
     </message>
     <message>
       <location filename="../src/librssguard-gmail/src/gui/emailrecipientcontrol.cpp" line="41"/>
       <source>Reply-to</source>
-      <translation>Odpovědět komu</translation>
+      <translation>Adresa pro odpověď</translation>
     </message>
     <message>
       <location filename="../src/librssguard-gmail/src/gui/emailrecipientcontrol.cpp" line="28"/>
@@ -900,7 +900,7 @@ Klikněte zde pro otevření nadřazeného adresáře.</translation>
     <message>
       <location filename="../src/librssguard/services/abstract/feed.cpp" line="292"/>
       <source>authentication error</source>
-      <translation>chyba autentifikace</translation>
+      <translation>chyba ověření</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/feed.cpp" line="295"/>
@@ -937,7 +937,7 @@ Klikněte zde pro otevření nadřazeného adresáře.</translation>
     <message>
       <location filename="../src/librssguard/services/abstract/feed.cpp" line="289"/>
       <source>has new articles</source>
-      <translation>má nové zprávy</translation>
+      <translation>obsahuje nové zprávy</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/feed.cpp" line="298"/>
@@ -1007,10 +1007,10 @@ ID položky: %5</translation>
       <location filename="../src/librssguard/miscellaneous/feedreader.cpp" line="366"/>
       <source>I will auto-download new articles for %n feed(s).</source>
       <translation>
-        <numerusform>Budou se stahovat zprávy pro %n kanál</numerusform>
-        <numerusform>Budou se stahovat zprávy pro %n kanály</numerusform>
-        <numerusform>Budou se stahovat zprávy pro %n kanálů</numerusform>
-        <numerusform>Budou se stahovat zprávy pro %n kanálů</numerusform>
+        <numerusform>Zdroj %n bude automaticky stahován</numerusform>
+        <numerusform>Zdroje %n budou automaticky stahovány</numerusform>
+        <numerusform>Zdroje %n budou automaticky stahovány</numerusform>
+        <numerusform>Zdroje %n budou automaticky stahovány/numerusform>
       </translation>
     </message>
     <message>
@@ -1050,7 +1050,7 @@ ID položky: %5</translation>
     <message>
       <location filename="../src/librssguard-feedly/src/gui/feedlyaccountdetails.ui" line="70"/>
       <source>Only download newest X articles per feed</source>
-      <translation>Stáhnout pouze X nejnovějších zpráv pro každý kanál</translation>
+      <translation>Stáhnout pouze X nejnovějších zpráv pro každý zdroj</translation>
     </message>
     <message>
       <location filename="../src/librssguard-feedly/src/gui/feedlyaccountdetails.ui" line="110"/>
@@ -1221,7 +1221,7 @@ ID položky: %5</translation>
     <message>
       <location filename="../src/librssguard/core/feedsmodel.cpp" line="39"/>
       <source>Titles of feeds/categories.</source>
-      <translation>Názvy kanálů/kategorií.</translation>
+      <translation>Názvy zdrojů/kategorií.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/core/feedsmodel.cpp" line="31"/>
@@ -1267,12 +1267,12 @@ ID položky: %5</translation>
     <message>
       <location filename="../src/librssguard/gui/toolbars/feedstoolbar.cpp" line="125"/>
       <source>Search feeds</source>
-      <translation>Prohledávat kanály</translation>
+      <translation>Prohledávání zdrojů</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/toolbars/feedstoolbar.cpp" line="133"/>
       <source>Feeds search box</source>
-      <translation>Hledací panel kanálů</translation>
+      <translation>Vyhledávání ve zdrojích</translation>
     </message>
   </context>
   <context>
@@ -1328,12 +1328,12 @@ ID položky: %5</translation>
     <message>
       <location filename="../src/librssguard/gui/feedsview.cpp" line="170"/>
       <source>Selected account does not support adding of new feeds.</source>
-      <translation>Vybraný účet nepodporuje přidávání nových kanálů.</translation>
+      <translation>Přidávání zdrojů není pro vybraný účet podporováno.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/feedsview.cpp" line="188"/>
       <source>Selected account does not support adding of new categories.</source>
-      <translation>Vybraný účet nepodporuje přidávání nových kategorií.</translation>
+      <translation>Přidávání kategorií není pro vybraný účet podporováno.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/feedsview.cpp" line="240"/>
@@ -1452,12 +1452,12 @@ ID položky: %5</translation>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formabout.cpp" line="53"/>
       <source>Cannot copy</source>
-      <translation type="unfinished">Cannot copy</translation>
+      <translation>Nelze kopírovat</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formabout.cpp" line="54"/>
       <source>Cannot copy info to clipboard.</source>
-      <translation type="unfinished">Cannot copy info to clipboard.</translation>
+      <translation>Nelze kopírovat do schránky.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formabout.cpp" line="68"/>
@@ -1504,7 +1504,7 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formabout.ui" line="93"/>
       <source>&amp;Copy info to clipboard</source>
-      <translation type="unfinished">&amp;Copy info to clipboard</translation>
+      <translation>&amp;Kopírovat do schránky</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formabout.ui" line="112"/>
@@ -2037,12 +2037,12 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formdiscoverfeeds.ui" line="14"/>
       <source>Discover feeds</source>
-      <translation>Objevuj kanály</translation>
+      <translation>Objevování zdrojů</translation>
     </message>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formdiscoverfeeds.ui" line="20"/>
       <source>URL</source>
-      <translation>URL</translation>
+      <translation>Okaz</translation>
     </message>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formdiscoverfeeds.ui" line="42"/>
@@ -2057,7 +2057,7 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formdiscoverfeeds.ui" line="77"/>
       <source>Discovered feeds</source>
-      <translation>Objevené kanály</translation>
+      <translation>Objevené zdroje</translation>
     </message>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formdiscoverfeeds.ui" line="83"/>
@@ -2067,7 +2067,7 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formdiscoverfeeds.ui" line="95"/>
       <source>Select parent item for your feed.</source>
-      <translation>Zvolte nadřazenou kategorii pro Váš kanál.</translation>
+      <translation>Zvolte nadřazenou kategorii pro Váš zdroj.</translation>
     </message>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formdiscoverfeeds.ui" line="128"/>
@@ -2082,17 +2082,17 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formdiscoverfeeds.ui" line="190"/>
       <source>Add single feed with advanced details</source>
-      <translation>Přidat kanál s pokročilými detaily</translation>
+      <translation>Přidat zdroj s pokročilými detaily</translation>
     </message>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formdiscoverfeeds.ui" line="197"/>
       <source>&amp;Import checked feeds</source>
-      <translation>&amp;Importovat zaškrtnuté kanály</translation>
+      <translation>&amp;Importovat zaškrtnuté zdroje</translation>
     </message>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formdiscoverfeeds.cpp" line="42"/>
       <source>Switch to &amp;advanced mode</source>
-      <translation>Přepnout do pokročilého režimu</translation>
+      <translation>Přepnutí do režimu pro pokročilé</translation>
     </message>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formdiscoverfeeds.cpp" line="44"/>
@@ -2102,7 +2102,7 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formdiscoverfeeds.cpp" line="126"/>
       <source>Cannot discover feeds</source>
-      <translation>Nelze najít kanály</translation>
+      <translation>Nelze najít zdroje</translation>
     </message>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formdiscoverfeeds.cpp" line="127"/>
@@ -2112,12 +2112,12 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formdiscoverfeeds.cpp" line="198"/>
       <source>URL is valid.</source>
-      <translation>Adresa URL je platná.</translation>
+      <translation>Odkaz je platný.</translation>
     </message>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formdiscoverfeeds.cpp" line="201"/>
       <source>URL is NOT valid.</source>
-      <translation>URL adresa není platná.</translation>
+      <translation>Odkaz není platný.</translation>
     </message>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formdiscoverfeeds.cpp" line="269"/>
@@ -2178,7 +2178,7 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/formfeeddetails.cpp" line="139"/>
       <source>Add new feed</source>
-      <translation>Přidat nový kanál</translation>
+      <translation>Přidat nový zdroj</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/formfeeddetails.cpp" line="186"/>
@@ -2194,10 +2194,10 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
       <location filename="../src/librssguard/services/abstract/gui/formfeeddetails.cpp" line="148"/>
       <source>Edit %n feeds</source>
       <translation>
-        <numerusform>Upravit %n kanál</numerusform>
-        <numerusform>Upravit %n kanály</numerusform>
-        <numerusform>Upravit %n kanálů</numerusform>
-        <numerusform>Upravit %n kanálů</numerusform>
+        <numerusform>Upravit %n zdroj</numerusform>
+        <numerusform>Upravit %n zdroje</numerusform>
+        <numerusform>Upravit %n zdrojů</numerusform>
+        <numerusform>Upravit %n zdrojů</numerusform>
       </translation>
     </message>
     <message>
@@ -2248,7 +2248,7 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/formfeeddetails.ui" line="122"/>
       <source>Disable this feed</source>
-      <translation>Vypnout kanál</translation>
+      <translation>Vypnutí zdroje</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/formfeeddetails.ui" line="136"/>
@@ -2258,7 +2258,7 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/formfeeddetails.ui" line="108"/>
       <source>Ignore notifications for this feed</source>
-      <translation>Nepoužívat notifikace pro tento kanál</translation>
+      <translation>U tohoto zdroje neupozorňovat na novinky</translation>
     </message>
   </context>
   <context>
@@ -2266,12 +2266,12 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard-greader/src/gui/formgreaderfeeddetails.cpp" line="49"/>
       <source>Feed added</source>
-      <translation>Kanál přidán</translation>
+      <translation>Zdroj přidán</translation>
     </message>
     <message>
       <location filename="../src/librssguard-greader/src/gui/formgreaderfeeddetails.cpp" line="50"/>
       <source>Feed was added, refreshing feed tree...</source>
-      <translation type="unfinished">Feed was added, refreshing feed tree...</translation>
+      <translation>Zdroj přidán, seznam zdrojů se aktualizuje...</translation>
     </message>
     <message>
       <location filename="../src/librssguard-greader/src/gui/formgreaderfeeddetails.cpp" line="64"/>
@@ -2332,7 +2332,7 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.ui" line="63"/>
       <source>&amp;Help</source>
-      <translation>&amp;Pomoc</translation>
+      <translation>&amp;Nápověda</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.ui" line="74"/>
@@ -2352,7 +2352,7 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.ui" line="105"/>
       <source>F&amp;eeds</source>
-      <translation>&amp;Kanály</translation>
+      <translation>&amp;Zdroje</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.ui" line="109"/>
@@ -2432,7 +2432,7 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.ui" line="283"/>
       <source>Fetch all feeds</source>
-      <translation>Stáhnout všechny kanály</translation>
+      <translation>Stáhnout všechny zdroje</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.ui" line="291"/>
@@ -2442,7 +2442,7 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.ui" line="294"/>
       <source>Fetch selected feeds</source>
-      <translation>Stáhnout vybrané kanály</translation>
+      <translation>Stáhnout vybrané zdroje</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.ui" line="315"/>
@@ -2572,12 +2572,12 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.ui" line="456"/>
       <source>&amp;Feed list</source>
-      <translation>Seznam &amp;kanálů</translation>
+      <translation>Seznam &amp;zdrojů</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.ui" line="459"/>
       <source>Hides or shows the list of feeds/categories.</source>
-      <translation>Skryje nebo zobrazí seznam kanálů/kategorií.</translation>
+      <translation>Skryje nebo zobrazí seznam zdrojů/kategorií.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.ui" line="467"/>
@@ -8996,12 +8996,12 @@ Poslední čas přihlášení: %4</translation>
     <message>
       <location filename="../src/librssguard/gui/webbrowser.cpp" line="37"/>
       <source>Play in media player</source>
-      <translation type="unfinished">Play in media player</translation>
+      <translation>Přehrát pomocí příslušného programu</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/webbrowser.cpp" line="44"/>
       <source>Load full source article</source>
-      <translation type="unfinished">Load full source article</translation>
+      <translation>Načti v režimu čtečky</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/webbrowser.cpp" line="284"/>
