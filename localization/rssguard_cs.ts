@@ -52,17 +52,17 @@
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="26"/>
       <source>AdBlock configuration</source>
-      <translation>AdBlock nastavení</translation>
+      <translation>Nastavení blokování reklam</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="63"/>
       <source>Cannot enable AdBlock</source>
-      <translation>AdBlock nemůže být povolen</translation>
+      <translation>Blokování reklam nemůže být zapnuto</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="64"/>
       <source>There is some error in AdBlock component and it cannot be enabled. Check error message below (or application debug log) for more information.</source>
-      <translation>V AdBlocku je nějaká chyba, a tak nemůže být aktivován. Mrkněte níže na detail chyby nebo prozkoumejte aplikační log.</translation>
+      <translation>Při aktivaci blokování reklam se vyskytla chyba. Přečtěte si chybové hlášení a nebo prozkoumejte aplikační protokol.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="98"/>
@@ -72,14 +72,14 @@
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="113"/>
       <source>There is error, check application log for more details and head to online documentation.</source>
-      <translation>Došlo k chybě, zkontrolujte log programu a případně prověřte dokumentaci.</translation>
+      <translation>Nastala chyba. Zkontrolujte aplikační protokol. Případně zkonzultujte s dokumentací.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="84"/>
       <source>There is error, check application log for more details and head to online documentation. Also make sure that Node.js is installed.
 
 Error: %1</source>
-      <translation>Došlo k chybě, zkontrolujte log programu a případně prověřte dokumentaci. Ujistětě se, že máte nakonfigurovaný Node.js.
+      <translation>Nastala chyba, zkontrolujte aplikační protokol. Případně zkonzultujte s dokumentací a ujistěte se, že máte správně nakonfigurovanou komponentu Node.js.
 
 Chyba: %1</translation>
     </message>
@@ -100,17 +100,17 @@ Chyba: %1</translation>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="97"/>
       <source>It seems your AdBlock runs fine, but wait few seconds to be sure.</source>
-      <translation>Vypadá to, že AdBlock běží dobře, ale počkejme pár vteřin.</translation>
+      <translation>Zdá se, že blokování reklam funguje. Vyčkejme však několik vteřin pro ověření.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.ui" line="20"/>
       <source>Enable AdBlock</source>
-      <translation>Povolit AdBlock</translation>
+      <translation>Povolit blokování reklam</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.ui" line="32"/>
       <source>&amp;Help</source>
-      <translation>&amp;Pomoc</translation>
+      <translation>&amp;Nápověda</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.ui" line="58"/>
@@ -138,12 +138,12 @@ Chyba: %1</translation>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockicon.cpp" line="12"/>
       <source>AdBlock lets you block unwanted content on web pages</source>
-      <translation>AdBlock vám umožňuje blokovat nevyžádaný obsah na webových stránkách.</translation>
+      <translation>Blokování reklam umožňuje filtrovat nevyžádaný obsah při prohlížení Internetu.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockicon.cpp" line="45"/>
       <source>Show AdBlock &amp;settings</source>
-      <translation>Zobrazit nastavení &amp;AdBlocku</translation>
+      <translation>Zobrazit nastavení &amp;Blokování reklam</translation>
     </message>
   </context>
   <context>
@@ -164,7 +164,7 @@ Chyba: %1</translation>
     <message>
       <location filename="../src/librssguard/network-web/apiserver.cpp" line="188"/>
       <source>account with ID %1 not found</source>
-      <translation type="unfinished">account with ID %1 not found</translation>
+      <translation type="unfinished">účet s ID %1 nenalezen</translation>
     </message>
   </context>
   <context>
@@ -177,22 +177,22 @@ Chyba: %1</translation>
     <message>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="636"/>
       <source>Output directory is not writable.</source>
-      <translation>Nelze psát do cílové složky</translation>
+      <translation>Nelze zapisovat do cílové složky</translation>
     </message>
     <message>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="644"/>
       <source>Settings file not copied to output directory successfully.</source>
-      <translation>Soubor nastavení nebyl zkopírován do cílového adresáře.</translation>
+      <translation>Soubor nastavení se nepodařilo zkopírovat do cílového adresáře.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="659"/>
       <source>Database restoration was not initiated. Make sure that output directory is writable.</source>
-      <translation>Obnovení databáze nebylo spuštěno. Ujistěte se, že cílový adresář je zapisovatelný.</translation>
+      <translation>Obnovení databáze se nezdařilo. Ujistěte se, že máte oprávnění zapisovat do cílového adresáře.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="666"/>
       <source>Settings restoration was not initiated. Make sure that output directory is writable.</source>
-      <translation>Obnovení nastavení nebylo spuštěno. Ujistěte se, že cílový adresář je zapisovatelný.</translation>
+      <translation>Obnovení nastavení nebylo spuštěno. Ujistěte se, že máte oprávnění zapisovat do cílového adresáře.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="1229"/>
@@ -214,14 +214,14 @@ Chyba: %1</translation>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="1382"/>
       <source>Packages were NOT updated because of error: %2. Affected packages:
 %1</source>
-      <translation type="unfinished">Packages were NOT updated because of error: %2. Affected packages:
+      <translation type="unfinished">Balíčky NEbyly aktualizovány. Příčinou je chyba: %2. Ovlivněné balíčky:
 %1</translation>
     </message>
     <message>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="1394"/>
       <source>These packages were installed/updated:
 %1</source>
-      <translation type="unfinished">These packages were installed/updated:
+      <translation type="unfinished">Tyto balíčky byly nainstalovány/aktualizovány:
 %1</translation>
     </message>
     <message>
@@ -237,7 +237,7 @@ Chyba: %1</translation>
     <message>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="1160"/>
       <source>AdBlock needs to be configured</source>
-      <translation>Je třeba nastavit AdBlock</translation>
+      <translation>Je třeba nastavit blokování reklam</translation>
     </message>
     <message>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="384"/>
@@ -258,7 +258,7 @@ na tuto bublinu.</translation>
     <message>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="1161"/>
       <source>AdBlock is not configured properly. Go to &quot;Settings&quot; -&gt; &quot;Node.js&quot; and check if your Node.js is properly configured.</source>
-      <translation>AdBlock není korektně nakonfigurován. Běžte do &quot;Nastavení&quot; -&gt; &quot;Node.js&quot; a zkontrolujte nastavení.</translation>
+      <translation>Blokování reklam není korektně nakonfigurováno. Běžte do &quot;Nastavení&quot; -&gt; &quot;Node.js&quot; a zkontrolujte nastavení.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/miscellaneous/application.cpp" line="1210"/>
@@ -276,12 +276,12 @@ na tuto bublinu.</translation>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.ui" line="36"/>
       <source>Ignoring old articles</source>
-      <translation type="unfinished">Ignoring old articles</translation>
+      <translation type="unfinished">Vynechávám starší články</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.ui" line="47"/>
       <source>Add articles with any date into the database</source>
-      <translation type="unfinished">Add articles with any date into the database</translation>
+      <translation type="unfinished">Přídat články do databáze, bez ohledu na datum</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.ui" line="76"/>
@@ -291,7 +291,7 @@ na tuto bublinu.</translation>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.ui" line="85"/>
       <source>Absolute date/time</source>
-      <translation type="unfinished">Absolute date/time</translation>
+      <translation type="unfinished">Absolutní datum/čas</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.ui" line="92"/>
@@ -2238,7 +2238,7 @@ Složka cache pro QtWebEngine -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/formfeeddetails.ui" line="84"/>
       <source>Open articles via their URL automatically</source>
-      <translation>Otevírat zdrojové URL zpráv automaticky</translation>
+      <translation>Automaticky načítat originální verzi článku</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/formfeeddetails.ui" line="97"/>
