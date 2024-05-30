@@ -1010,7 +1010,7 @@ ID položky: %5</translation>
         <numerusform>Zdroj %n bude automaticky stahován</numerusform>
         <numerusform>Zdroje %n budou automaticky stahovány</numerusform>
         <numerusform>Zdroje %n budou automaticky stahovány</numerusform>
-        <numerusform>Zdroje %n budou automaticky stahovány/numerusform>
+        <numerusform>Zdroje %n budou automaticky stahovány</numerusform>
       </translation>
     </message>
     <message>
