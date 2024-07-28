@@ -6,12 +6,12 @@
     <message>
       <location filename="../src/librssguard/services/abstract/accountcheckmodel.cpp" line="187"/>
       <source>(category)</source>
-      <translation type="unfinished">(category)</translation>
+      <translation>(category)</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/accountcheckmodel.cpp" line="190"/>
       <source>(feed)</source>
-      <translation type="unfinished">(feed)</translation>
+      <translation>(feed)</translation>
     </message>
   </context>
   <context>
@@ -19,32 +19,32 @@
     <message>
       <location filename="../src/librssguard/services/abstract/gui/accountdetails.ui" line="14"/>
       <source>Form</source>
-      <translation type="unfinished">Form</translation>
+      <translation>Form</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/accountdetails.ui" line="20"/>
       <source>Display additional nodes</source>
-      <translation type="unfinished">Display additional nodes</translation>
+      <translation>Display additional nodes</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/accountdetails.ui" line="26"/>
       <source>Important</source>
-      <translation type="unfinished">Important</translation>
+      <translation>Important</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/accountdetails.ui" line="33"/>
       <source>Unread</source>
-      <translation type="unfinished">Unread</translation>
+      <translation>Unread</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/accountdetails.ui" line="40"/>
       <source>Labels</source>
-      <translation type="unfinished">Labels</translation>
+      <translation>Labels</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/accountdetails.ui" line="47"/>
       <source>Probes</source>
-      <translation type="unfinished">Probes</translation>
+      <translation>Probes</translation>
     </message>
   </context>
   <context>
@@ -52,34 +52,34 @@
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="26"/>
       <source>AdBlock configuration</source>
-      <translation type="unfinished">AdBlock configuration</translation>
+      <translation>AdBlock configuration</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="63"/>
       <source>Cannot enable AdBlock</source>
-      <translation type="unfinished">Cannot enable AdBlock</translation>
+      <translation>Cannot enable AdBlock</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="64"/>
       <source>There is some error in AdBlock component and it cannot be enabled. Check error message below (or application debug log) for more information.</source>
-      <translation type="unfinished">There is some error in AdBlock component and it cannot be enabled. Check error message below (or application debug log) for more information.</translation>
+      <translation>There is some error in AdBlock component, and it cannot be enabled. Check the error message below (or application debug log) for more information.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="98"/>
       <source>OK!</source>
-      <translation type="unfinished">OK!</translation>
+      <translation>OK!</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="113"/>
       <source>There is error, check application log for more details and head to online documentation.</source>
-      <translation type="unfinished">There is error, check application log for more details and head to online documentation.</translation>
+      <translation>There is an error, check the application log for more details and head to online documentation.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="84"/>
       <source>There is error, check application log for more details and head to online documentation. Also make sure that Node.js is installed.
 
 Error: %1</source>
-      <translation type="unfinished">There is error, check application log for more details and head to online documentation. Also make sure that Node.js is installed.
+      <translation>There is an error, check the application log for more details and head to online documentation. Also, make sure that Node.js is installed.
 
 Error: %1</translation>
     </message>
@@ -87,7 +87,7 @@ Error: %1</translation>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="88"/>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="115"/>
       <source>ERROR!</source>
-      <translation type="unfinished">ERROR!</translation>
+      <translation>ERROR!</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="38"/>
@@ -95,22 +95,22 @@ Error: %1</translation>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="105"/>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="106"/>
       <source>No additional info.</source>
-      <translation type="unfinished">No additional info.</translation>
+      <translation>No additional info.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.cpp" line="97"/>
       <source>It seems your AdBlock runs fine, but wait few seconds to be sure.</source>
-      <translation type="unfinished">It seems your AdBlock runs fine, but wait few seconds to be sure.</translation>
+      <translation>It seems your AdBlock runs fine, but wait a few seconds to be sure.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.ui" line="20"/>
       <source>Enable AdBlock</source>
-      <translation type="unfinished">Enable AdBlock</translation>
+      <translation>Enable AdBlock</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.ui" line="32"/>
       <source>&amp;Help</source>
-      <translation type="unfinished">&amp;Help</translation>
+      <translation>&amp;Help</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.ui" line="58"/>
@@ -120,17 +120,17 @@ Error: %1</translation>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.ui" line="64"/>
       <source>Add your direct links to filter lists here (one URL per line)</source>
-      <translation type="unfinished">Add your direct links to filter lists here (one URL per line)</translation>
+      <translation>Add your direct links to filter lists here (one URL per line)</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.ui" line="78"/>
       <source>Custom filters</source>
-      <translation type="unfinished">Custom filters</translation>
+      <translation>Custom filters</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockdialog.ui" line="84"/>
       <source>Add your custom filters here (one filter per line)</source>
-      <translation type="unfinished">Add your custom filters here (one filter per line)</translation>
+      <translation>Add your custom filters here (one filter per line)</translation>
     </message>
   </context>
   <context>
@@ -138,12 +138,12 @@ Error: %1</translation>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockicon.cpp" line="12"/>
       <source>AdBlock lets you block unwanted content on web pages</source>
-      <translation type="unfinished">AdBlock lets you block unwanted content on web pages</translation>
+      <translation>AdBlock lets you block unwanted content on web pages</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockicon.cpp" line="45"/>
       <source>Show AdBlock &amp;settings</source>
-      <translation type="unfinished">Show AdBlock &amp;settings</translation>
+      <translation>Show AdBlock &amp;settings</translation>
     </message>
   </context>
   <context>
@@ -151,7 +151,7 @@ Error: %1</translation>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockmanager.cpp" line="200"/>
       <source>Failed to setup filters and start server: %1.</source>
-      <translation type="unfinished">Failed to setup filters and start server: %1.</translation>
+      <translation>Failed to setup filters and start server: %1.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockmanager.cpp" line="378"/>
@@ -170,82 +170,82 @@ Error: %1</translation>
   <context>
     <name>Application</name>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1211"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1220"/>
       <source>Application is already running.</source>
       <translation type="unfinished">Application is already running.</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="636"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="645"/>
       <source>Output directory is not writable.</source>
       <translation type="unfinished">Output directory is not writable.</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="644"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="653"/>
       <source>Settings file not copied to output directory successfully.</source>
       <translation type="unfinished">Settings file not copied to output directory successfully.</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="659"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="668"/>
       <source>Database restoration was not initiated. Make sure that output directory is writable.</source>
       <translation type="unfinished">Database restoration was not initiated. Make sure that output directory is writable.</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="666"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="675"/>
       <source>Settings restoration was not initiated. Make sure that output directory is writable.</source>
       <translation type="unfinished">Settings restoration was not initiated. Make sure that output directory is writable.</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1229"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1238"/>
       <source>Cannot add feed</source>
       <translation type="unfinished">Cannot add feed</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1230"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1239"/>
       <source>Feed cannot be added because there is no active account which can add feeds.</source>
       <translation type="unfinished">Feed cannot be added because there is no active account which can add feeds.</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1381"/>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1393"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1390"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1402"/>
       <source>Node.js</source>
       <translation type="unfinished">Node.js</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1382"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1391"/>
       <source>Packages were NOT updated because of error: %2. Affected packages:
 %1</source>
       <translation type="unfinished">Packages were NOT updated because of error: %2. Affected packages:
 %1</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1394"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1403"/>
       <source>These packages were installed/updated:
 %1</source>
       <translation type="unfinished">These packages were installed/updated:
 %1</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1095"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1104"/>
       <source>Unread articles fetched</source>
       <translation type="unfinished">Unread articles fetched</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="390"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="399"/>
       <source>Go to changelog</source>
       <translation type="unfinished">Go to changelog</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1160"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1169"/>
       <source>AdBlock needs to be configured</source>
       <translation type="unfinished">AdBlock needs to be configured</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="384"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="393"/>
       <source>Welcome</source>
       <translation type="unfinished">Welcome</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="385"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="394"/>
       <source>Welcome to %1.
 
 Please, check NEW stuff included in this
@@ -256,12 +256,12 @@ Please, check NEW stuff included in this
 version by clicking this popup notification.</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1161"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1170"/>
       <source>AdBlock is not configured properly. Go to &quot;Settings&quot; -&gt; &quot;Node.js&quot; and check if your Node.js is properly configured.</source>
       <translation type="unfinished">AdBlock is not configured properly. Go to &quot;Settings&quot; -&gt; &quot;Node.js&quot; and check if your Node.js is properly configured.</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1210"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1219"/>
       <source>Already running</source>
       <translation type="unfinished">Already running</translation>
     </message>
@@ -331,7 +331,7 @@ version by clicking this popup notification.</translation>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.cpp" line="11"/>
       <source>Setting any limitations here will instruct %1 to ignore some incoming articles. The logic runs AFTER any article filters so even if your article filter accepts particular article, it can still subsequently ignored and not added to database.</source>
-      <translation type="unfinished">Setting any limitations here will instruct %1 to ignore some incoming articles. The logic runs AFTER any article filters so even if your article filter accepts particular article, it can still subsequently ignored and not added to database.</translation>
+      <translation>Setting any limitations here will instruct %1 to ignore some incoming articles. The logic runs AFTER any article filters, so even if your article filter accepts particular article, it can still subsequently be ignored and not added to the database.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/reusable/articleamountcontrol.cpp" line="16"/>
@@ -1221,12 +1221,12 @@ Item ID: %5</translation>
   <context>
     <name>FeedsProxyModel</name>
     <message>
-      <location filename="../src/librssguard/core/feedsproxymodel.cpp" line="230"/>
+      <location filename="../src/librssguard/core/feedsproxymodel.cpp" line="286"/>
       <source>Cannot perform drag &amp; drop operation</source>
       <translation type="unfinished">Cannot perform drag &amp; drop operation</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/core/feedsproxymodel.cpp" line="231"/>
+      <location filename="../src/librssguard/core/feedsproxymodel.cpp" line="287"/>
       <source>You can&apos;t transfer dragged item into different account, this is not supported.</source>
       <translation type="unfinished">You can&apos;t transfer dragged item into different account, this is not supported.</translation>
     </message>
@@ -2133,6 +2133,14 @@ QtWebEngine cache folder -&gt; &quot;%7&quot;</translation>
     </message>
   </context>
   <context>
+    <name>FormEditRedditAccount</name>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/formeditredditaccount.cpp" line="13"/>
+      <source>Server setup</source>
+      <translation type="unfinished">Server setup</translation>
+    </message>
+  </context>
+  <context>
     <name>FormEditStandardAccount</name>
     <message>
       <location filename="../src/librssguard-standard/src/gui/formeditstandardaccount.cpp" line="13"/>
@@ -2305,7 +2313,7 @@ QtWebEngine cache folder -&gt; &quot;%7&quot;</translation>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.ui" line="63"/>
       <source>&amp;Help</source>
-      <translation type="unfinished">&amp;Help</translation>
+      <translation>&amp;Help</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.ui" line="74"/>
@@ -6095,7 +6103,7 @@ List of supported readers:</translation>
       <translation type="unfinished">closing &apos; is missing</translation>
     </message>
     <message>
-      <location filename="../src/librssguard-standard/src/parsers/atomparser.cpp" line="250"/>
+      <location filename="../src/librssguard-standard/src/parsers/atomparser.cpp" line="287"/>
       <location filename="../src/librssguard-standard/src/parsers/rdfparser.cpp" line="200"/>
       <location filename="../src/librssguard-standard/src/parsers/rssparser.cpp" line="200"/>
       <location filename="../src/librssguard-standard/src/parsers/sitemapparser.cpp" line="194"/>
@@ -6103,7 +6111,7 @@ List of supported readers:</translation>
       <translation type="unfinished">XML is not well-formed, %1</translation>
     </message>
     <message>
-      <location filename="../src/librssguard-standard/src/parsers/atomparser.cpp" line="256"/>
+      <location filename="../src/librssguard-standard/src/parsers/atomparser.cpp" line="293"/>
       <source>not an ATOM feed</source>
       <translation type="unfinished">not an ATOM feed</translation>
     </message>
@@ -6182,6 +6190,16 @@ List of supported readers:</translation>
       <location filename="../src/librssguard-standard/src/standardserviceentrypoint.cpp" line="24"/>
       <source>This service offers integration with standard online RSS/RDF/ATOM/JSON/Sitemap/iCalendar feeds and podcasts.</source>
       <translation type="unfinished">This service offers integration with standard online RSS/RDF/ATOM/JSON/Sitemap/iCalendar feeds and podcasts.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditentrypoint.cpp" line="33"/>
+      <source>Reddit (WIP, no real functionality yet)</source>
+      <translation type="unfinished">Reddit (WIP, no real functionality yet)</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditentrypoint.cpp" line="41"/>
+      <source>Simplistic Reddit client.</source>
+      <translation type="unfinished">Simplistic Reddit client.</translation>
     </message>
   </context>
   <context>
@@ -6355,6 +6373,185 @@ List of supported readers:</translation>
         <numerusform>%n deleted article.</numerusform>
         <numerusform>%n deleted articles.</numerusform>
       </translation>
+    </message>
+  </context>
+  <context>
+    <name>RedditAccountDetails</name>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="17"/>
+      <source>Username</source>
+      <translation type="unfinished">Username</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="33"/>
+      <source>OAuth 2.0 settings</source>
+      <translation type="unfinished">OAuth 2.0 settings</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="39"/>
+      <source>Client ID</source>
+      <translation type="unfinished">Client ID</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="52"/>
+      <source>Client secret</source>
+      <translation type="unfinished">Client secret</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="65"/>
+      <source>Redirect URL</source>
+      <translation type="unfinished">Redirect URL</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="80"/>
+      <source>Get my credentials</source>
+      <translation type="unfinished">Get my credentials</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="110"/>
+      <source>Only download newest X articles per feed</source>
+      <translation type="unfinished">Only download newest X articles per feed</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="134"/>
+      <source>&amp;Login</source>
+      <translation type="unfinished">&amp;Login</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="163"/>
+      <source>Download unread articles only</source>
+      <translation type="unfinished">Download unread articles only</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="15"/>
+      <source>You have to fill in your client ID/secret and also fill in correct redirect URL.</source>
+      <translation type="unfinished">You have to fill in your client ID/secret and also fill in correct redirect URL.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="18"/>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="19"/>
+      <source>Not tested yet.</source>
+      <translation type="unfinished">Not tested yet.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="21"/>
+      <source>User-visible username</source>
+      <translation type="unfinished">User-visible username</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="55"/>
+      <source>No username entered.</source>
+      <translation type="unfinished">No username entered.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="58"/>
+      <source>Some username entered.</source>
+      <translation type="unfinished">Some username entered.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="64"/>
+      <source>You did not grant access.</source>
+      <translation type="unfinished">You did not grant access.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="65"/>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="73"/>
+      <source>There was error during testing.</source>
+      <translation type="unfinished">There was error during testing.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="72"/>
+      <source>There is error: %1</source>
+      <translation type="unfinished">There is error: %1</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="78"/>
+      <source>Tested successfully. You may be prompted to login once more.</source>
+      <translation type="unfinished">Tested successfully. You may be prompted to login once more.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="79"/>
+      <source>Your access was approved.</source>
+      <translation type="unfinished">Your access was approved.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="111"/>
+      <source>Preconfigured client ID/secret will be used.</source>
+      <translation type="unfinished">Preconfigured client ID/secret will be used.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="113"/>
+      <source>Empty value is entered.</source>
+      <translation type="unfinished">Empty value is entered.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="117"/>
+      <source>Some value is entered.</source>
+      <translation type="unfinished">Some value is entered.</translation>
+    </message>
+  </context>
+  <context>
+    <name>RedditCategory</name>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditcategory.cpp" line="17"/>
+      <source>Subscriptions</source>
+      <translation type="unfinished">Subscriptions</translation>
+    </message>
+  </context>
+  <context>
+    <name>RedditNetworkFactory</name>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="96"/>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="132"/>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="220"/>
+      <source>you are not logged in</source>
+      <translation type="unfinished">you are not logged in</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="302"/>
+      <source>Reddit: authentication error</source>
+      <translation type="unfinished">Reddit: authentication error</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="303"/>
+      <source>Click this to login again. Error is: &apos;%1&apos;</source>
+      <translation type="unfinished">Click this to login again. Error is: &apos;%1&apos;</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="306"/>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="319"/>
+      <source>Login</source>
+      <translation type="unfinished">Login</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="315"/>
+      <source>Reddit: authorization denied</source>
+      <translation type="unfinished">Reddit: authorization denied</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="316"/>
+      <source>Click this to login again.</source>
+      <translation type="unfinished">Click this to login again.</translation>
+    </message>
+  </context>
+  <context>
+    <name>RedditServiceRoot</name>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditserviceroot.cpp" line="132"/>
+      <source>Authentication status: %1
+Login tokens expiration: %2</source>
+      <translation type="unfinished">Authentication status: %1
+Login tokens expiration: %2</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditserviceroot.cpp" line="134"/>
+      <source>logged-in</source>
+      <translation type="unfinished">logged-in</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditserviceroot.cpp" line="134"/>
+      <source>NOT logged-in</source>
+      <translation type="unfinished">NOT logged-in</translation>
     </message>
   </context>
   <context>

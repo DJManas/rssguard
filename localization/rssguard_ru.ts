@@ -151,9 +151,7 @@ Error: %1</source>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockmanager.cpp" line="200"/>
       <source>Failed to setup filters and start server: %1.</source>
-      <translation>Ключ: AdBlock Manager ['Не удалось настроить фильтры и запустить сервер: %1.'].
-
-AdBlock Manager../src/librssguard/network-web/adblock/adblockmanager. cpp: 198.</translation>
+      <translation>Ключ: AdBlockManager['Не удалось настроить фильтры и запустить сервер: %1.'].</translation>
     </message>
     <message>
       <location filename="../src/librssguard/network-web/adblock/adblockmanager.cpp" line="378"/>
@@ -166,88 +164,88 @@ AdBlock Manager../src/librssguard/network-web/adblock/adblockmanager. cpp: 198.<
     <message>
       <location filename="../src/librssguard/network-web/apiserver.cpp" line="188"/>
       <source>account with ID %1 not found</source>
-      <translation type="unfinished">account with ID %1 not found</translation>
+      <translation>аккаунт с ID %1 не найден</translation>
     </message>
   </context>
   <context>
     <name>Application</name>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1211"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1220"/>
       <source>Application is already running.</source>
       <translation>Приложение уже запущено</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="636"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="645"/>
       <source>Output directory is not writable.</source>
       <translation>Выходной каталог не доступен для записи</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="644"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="653"/>
       <source>Settings file not copied to output directory successfully.</source>
       <translation>Файл настроек не скопирован в выходной каталог.</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="659"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="668"/>
       <source>Database restoration was not initiated. Make sure that output directory is writable.</source>
       <translation>Восстановление базы данных не было начато. Убедитесь, что выходной каталог доступен для записи.</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="666"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="675"/>
       <source>Settings restoration was not initiated. Make sure that output directory is writable.</source>
       <translation>Восстановление настроек не было начато. Убедитесь, что выходной каталог доступен для записи.</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1229"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1238"/>
       <source>Cannot add feed</source>
       <translation>Невозможно добавить канал</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1230"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1239"/>
       <source>Feed cannot be added because there is no active account which can add feeds.</source>
       <translation>Канал не может быть добавлен, потому что нет активной учетной записи, которая может добавлять каналы.</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1381"/>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1393"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1390"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1402"/>
       <source>Node.js</source>
-      <translation type="unfinished">Node.js</translation>
+      <translation>Node.js</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1382"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1391"/>
       <source>Packages were NOT updated because of error: %2. Affected packages:
 %1</source>
-      <translation type="unfinished">Packages were NOT updated because of error: %2. Affected packages:
+      <translation>Пакеты не были обновлены из-за ошибки: %2. Затронутые пакеты:
 %1</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1394"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1403"/>
       <source>These packages were installed/updated:
 %1</source>
-      <translation type="unfinished">These packages were installed/updated:
+      <translation>Эти пакеты были установлены/обновлены:
 %1</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1095"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1104"/>
       <source>Unread articles fetched</source>
       <translation>Загружены непрочитанные статьи</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="390"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="399"/>
       <source>Go to changelog</source>
       <translation>К списку изменений</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1160"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1169"/>
       <source>AdBlock needs to be configured</source>
       <translation>Блокировщик рекламы (AdBlock) должен быть настроен</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="384"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="393"/>
       <source>Welcome</source>
       <translation>Добро пожаловать</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="385"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="394"/>
       <source>Welcome to %1.
 
 Please, check NEW stuff included in this
@@ -258,12 +256,12 @@ version by clicking this popup notification.</source>
 версию, щелкнув на это всплывающее уведомление.</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1161"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1170"/>
       <source>AdBlock is not configured properly. Go to &quot;Settings&quot; -&gt; &quot;Node.js&quot; and check if your Node.js is properly configured.</source>
       <translation>AdBlock настроен неправильно. Перейдите в «Настройки» -&gt; «Node.js» и проверьте, правильно ли настроен ваш Node.js.</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1210"/>
+      <location filename="../src/librssguard/miscellaneous/application.cpp" line="1219"/>
       <source>Already running</source>
       <translation>Уже выполняется</translation>
     </message>
@@ -361,61 +359,41 @@ version by clicking this popup notification.</source>
     <message>
       <location filename="../src/librssguard/gui/notifications/articlelistnotification.ui" line="66"/>
       <source>...</source>
-      <translation>Ключ: Уведомление о перечне статей ['...']
-
-Уведомление о списке статей...</translation>
+      <translation>...</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/notifications/articlelistnotification.ui" line="87"/>
       <source>Go to previous page</source>
-      <translation>Ключ: Уведомление о перечне статей ['Перейти на предыдущую страницу']
-
-Уведомление о списке статей../src/librssguard/gui/notifications/articlelistnotification. ui: 90</translation>
+      <translation>Вернуться на предыдущую страницу</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/notifications/articlelistnotification.ui" line="94"/>
       <source>Go to next page</source>
-      <translation>Ключ: Уведомление о перечне статей ['Перейти на следующую страницу']
-
-Уведомление о списке статей../src/librssguard/gui/notifications/articlelistnotification. ui: 97</translation>
+      <translation>Перейти на следующую страницу</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/notifications/articlelistnotification.ui" line="101"/>
       <source>Open article in article list</source>
-      <translation>Ключ: Уведомление о списке статей ['Открыть статью в списке статей']
-
-Уведомление о списке статей../src/librssguard/gui/notifications/articlelistnotification. ui: 104</translation>
+      <translation>Открыть статью в списке материалов</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/notifications/articlelistnotification.ui" line="108"/>
       <source>Open article in web browser</source>
-      <translation>Ключ: Уведомление о списке статей ['Открыть статью в веб-браузере']
-
-Уведомление о списке статей../src/librssguard/gui/notifications/articlelistnotification. ui: 111</translation>
+      <translation>Открыть статью в веб-браузере</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/notifications/articlelistnotification.ui" line="122"/>
       <source>Mark all articles as read</source>
-      <translation>Ключ: Уведомление о списке статей ["Пометить все статьи как прочитанные"]
-
-Уведомление о списке статей../src/librssguard/gui/notifications/articlelistnotification. ui: 125</translation>
+      <translation>Отметить все статьи прочитанными</translation>
     </message>
     <message numerus="yes">
       <location filename="../src/librssguard/gui/notifications/articlelistnotification.cpp" line="73"/>
       <source>%n feeds fetched</source>
       <translation>
-        <numerusform>Ключ: Уведомление о списке статей ['%n feeds fetched']
-
-Уведомление о списке статей../src/librssguard/gui/notifications/articlelistnotification. cpp: 73</numerusform>
-        <numerusform>Ключ: Уведомление о списке статей ['%n feeds fetched']
-
-Уведомление о списке статей../src/librssguard/gui/notifications/articlelistnotification. cpp: 73</numerusform>
-        <numerusform>Ключ: Уведомление о списке статей ['%n feeds fetched']
-
-Уведомление о списке статей../src/librssguard/gui/notifications/articlelistnotification. cpp: 73</numerusform>
-        <numerusform>Ключ: Уведомление о списке статей ['%n feeds fetched']
-
-Уведомление о списке статей../src/librssguard/gui/notifications/articlelistnotification. cpp: 73</numerusform>
+        <numerusform>Получено %n каналов</numerusform>
+        <numerusform>Получено %n каналов</numerusform>
+        <numerusform>Получено %n каналов</numerusform>
+        <numerusform>Получено %n каналов</numerusform>
       </translation>
     </message>
   </context>
@@ -478,16 +456,12 @@ version by clicking this popup notification.</source>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.ui" line="48"/>
       <source>Credentials</source>
-      <translation>Ключ: Authentication Details [' Учетные данные ']
-
-Детали аутентификации../src/librssguard/services/abstract/gui/authenticationdetails. ui: 48</translation>
+      <translation>Данные получателя</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.ui" line="25"/>
       <source>Authentication type</source>
-      <translation>Ключ: Подробности аутентификации [' Тип аутентификации ']
-
-Детали аутентификации../src/librssguard/services/abstract/gui/authenticationdetails. ui: 25</translation>
+      <translation>Тип аутентификации</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.ui" line="60"/>
@@ -515,42 +489,32 @@ version by clicking this popup notification.</source>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.cpp" line="20"/>
       <source>No authentication</source>
-      <translation>Ключ: Подробности аутентификации ['Без аутентификации']
-
-Детали аутентификации../src/librssguard/services/abstract/gui/authenticationdetails. cpp: 17</translation>
+      <translation>Без авторизации</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.cpp" line="22"/>
       <source>HTTP Basic</source>
-      <translation>Ключ: Детали аутентификации ['HTTP Basic']
-
-Детали аутентификации../src/librssguard/services/abstract/gui/authenticationdetails. cpp: 19</translation>
+      <translation>Базовый HTTP</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.cpp" line="25"/>
       <source>Token</source>
-      <translation>Ключ: Authentication Details [Токен]
-
-Детали аутентификации../src/librssguard/services/abstract/gui/authenticationdetails. cpp: 22</translation>
+      <translation>Токен</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.cpp" line="74"/>
       <source>Username/token is ok or it is not needed.</source>
-      <translation>Ключ: Детали аутентификации [' Имя пользователя / токен в порядке или он не нужен'].
-
-Детали аутентификации../src/librssguard/services/abstract/gui/authenticationdetails. cpp: 53.</translation>
+      <translation>Имя пользователя/токен нормально или он не требуется.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.cpp" line="75"/>
       <source>Username/token is empty.</source>
-      <translation>Ключ: Детали аутентификации ['Имя пользователя / токен пусты'].
-
-Детали аутентификации../src/librssguard/services/abstract/gui/authenticationdetails. cpp: 54.</translation>
+      <translation>Имя пользователя/токен пусто.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.cpp" line="97"/>
       <source>Access token</source>
-      <translation>Токен доступа</translation>
+      <translation>Токен для доступа</translation>
     </message>
     <message>
       <location filename="../src/librssguard/services/abstract/gui/authenticationdetails.cpp" line="84"/>
@@ -576,7 +540,7 @@ version by clicking this popup notification.</source>
     <message>
       <location filename="../src/librssguard/gui/notifications/basetoastnotification.cpp" line="46"/>
       <source>Close this notification</source>
-      <translation>Закрыть данное уведомление</translation>
+      <translation>Закрыть это уведомление</translation>
     </message>
   </context>
   <context>
@@ -585,8 +549,8 @@ version by clicking this popup notification.</source>
       <location filename="../src/librssguard/services/abstract/category.cpp" line="73"/>
       <source>Number of feeds: %1
 Number of categories: %2</source>
-      <translation type="unfinished">Number of feeds: %1
-Number of categories: %2</translation>
+      <translation>Количество каналов: %1
+Количество категорий: %2</translation>
     </message>
   </context>
   <context>
@@ -1278,12 +1242,12 @@ ID элемента: %5</translation>
   <context>
     <name>FeedsProxyModel</name>
     <message>
-      <location filename="../src/librssguard/core/feedsproxymodel.cpp" line="230"/>
+      <location filename="../src/librssguard/core/feedsproxymodel.cpp" line="286"/>
       <source>Cannot perform drag &amp; drop operation</source>
       <translation>Невозможно выполнить операцию перетаскивания</translation>
     </message>
     <message>
-      <location filename="../src/librssguard/core/feedsproxymodel.cpp" line="231"/>
+      <location filename="../src/librssguard/core/feedsproxymodel.cpp" line="287"/>
       <source>You can&apos;t transfer dragged item into different account, this is not supported.</source>
       <translation>Нельзя передать перетаскиваемый пункт в другой аккаунт, это не поддерживается.</translation>
     </message>
@@ -1529,7 +1493,7 @@ QtWebEngine cache folder -&gt; &quot;%7&quot;</source>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formabout.cpp" line="134"/>
       <source>&lt;h4&gt;%8&lt;/h4&gt;&lt;b&gt;Version:&lt;/b&gt; %1 (built on %2/%3)&lt;br/&gt;&lt;b&gt;Revision:&lt;/b&gt; %4&lt;br/&gt;&lt;b&gt;Build date:&lt;/b&gt; %5&lt;br/&gt;&lt;b&gt;OS:&lt;/b&gt; %9&lt;br/&gt;&lt;b&gt;Qt:&lt;/b&gt; %6 (compiled against %7)</source>
-      <translation type="unfinished">&lt;h4&gt;%8&lt;/h4&gt;&lt;b&gt;Version:&lt;/b&gt; %1 (built on %2/%3)&lt;br/&gt;&lt;b&gt;Revision:&lt;/b&gt; %4&lt;br/&gt;&lt;b&gt;Build date:&lt;/b&gt; %5&lt;br/&gt;&lt;b&gt;OS:&lt;/b&gt; %9&lt;br/&gt;&lt;b&gt;Qt:&lt;/b&gt; %6 (compiled against %7)</translation>
+      <translation>&lt;h4&gt;%8&lt;/h4&gt;&lt;b&gt;Версия:&lt;/b&gt; %1 (сборка для %2/%3)&lt;br/&gt;&lt;b&gt;Ревизия:&lt;/b&gt; %4&lt;br/&gt;&lt;b&gt;Дата сборки:&lt;/b&gt; %5&lt;br/&gt;&lt;b&gt;ОС:&lt;/b&gt; %9&lt;br/&gt;&lt;b&gt;Qt:&lt;/b&gt; %6 (скомпилировано под %7)</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formabout.cpp" line="152"/>
@@ -2200,6 +2164,14 @@ QtWebEngine cache folder -&gt; &quot;%7&quot;</source>
     <name>FormEditNextcloudAccount</name>
     <message>
       <location filename="../src/librssguard-nextcloud/src/gui/formeditnextcloudaccount.cpp" line="14"/>
+      <source>Server setup</source>
+      <translation>Настройка сервера</translation>
+    </message>
+  </context>
+  <context>
+    <name>FormEditRedditAccount</name>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/formeditredditaccount.cpp" line="13"/>
       <source>Server setup</source>
       <translation>Настройка сервера</translation>
     </message>
@@ -2980,7 +2952,7 @@ QtWebEngine cache folder -&gt; &quot;%7&quot;</source>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.ui" line="951"/>
       <source>Play in &amp;media player</source>
-      <translation type="unfinished">Play in &amp;media player</translation>
+      <translation>Воспроизвести в медиаплеере (&amp;M)</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.ui" line="738"/>
@@ -3006,7 +2978,7 @@ QtWebEngine cache folder -&gt; &quot;%7&quot;</source>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.cpp" line="472"/>
       <source>Play in media player</source>
-      <translation type="unfinished">Play in media player</translation>
+      <translation>Воспроизвести в медиаплеере</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/dialogs/formmain.cpp" line="473"/>
@@ -4639,7 +4611,7 @@ Login tokens expiration: %2</source>
     <message>
       <location filename="../src/librssguard/gui/mediaplayer/libmpv/libmpvbackend.cpp" line="251"/>
       <source>Unknown error (%1)</source>
-      <translation type="unfinished">Unknown error (%1)</translation>
+      <translation>Неизвестная ошибка (%1)</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/mediaplayer/libmpv/libmpvbackend.cpp" line="270"/>
@@ -5848,7 +5820,7 @@ Login tokens expiration: %2</source>
       <location filename="../src/librssguard-nextcloud/src/gui/nextcloudaccountdetails.cpp" line="80"/>
       <location filename="../src/librssguard-nextcloud/src/gui/nextcloudaccountdetails.cpp" line="86"/>
       <source>Installed version: %1, required at least: %2.</source>
-      <translation type="unfinished">Installed version: %1, required at least: %2.</translation>
+      <translation>Установленная версия: %1, требуется как минимум: %2.</translation>
     </message>
     <message>
       <location filename="../src/librssguard-nextcloud/src/gui/nextcloudaccountdetails.cpp" line="82"/>
@@ -5916,7 +5888,7 @@ Login tokens expiration: %2</source>
     <message>
       <location filename="../src/librssguard/miscellaneous/nodejs.cpp" line="161"/>
       <source>Node.js</source>
-      <translation type="unfinished">Node.js</translation>
+      <translation>Node.js</translation>
     </message>
     <message>
       <location filename="../src/librssguard/miscellaneous/nodejs.cpp" line="162"/>
@@ -6193,22 +6165,22 @@ List of supported readers:</source>
       <translation type="unfinished">closing &apos; is missing</translation>
     </message>
     <message>
-      <location filename="../src/librssguard-standard/src/parsers/atomparser.cpp" line="250"/>
+      <location filename="../src/librssguard-standard/src/parsers/atomparser.cpp" line="287"/>
       <location filename="../src/librssguard-standard/src/parsers/rdfparser.cpp" line="200"/>
       <location filename="../src/librssguard-standard/src/parsers/rssparser.cpp" line="200"/>
       <location filename="../src/librssguard-standard/src/parsers/sitemapparser.cpp" line="194"/>
       <source>XML is not well-formed, %1</source>
-      <translation type="unfinished">XML is not well-formed, %1</translation>
+      <translation>XML имеет неправильный формат, %1</translation>
     </message>
     <message>
-      <location filename="../src/librssguard-standard/src/parsers/atomparser.cpp" line="256"/>
+      <location filename="../src/librssguard-standard/src/parsers/atomparser.cpp" line="293"/>
       <source>not an ATOM feed</source>
       <translation type="unfinished">not an ATOM feed</translation>
     </message>
     <message>
       <location filename="../src/librssguard-standard/src/parsers/jsonparser.cpp" line="124"/>
       <source>JSON error &apos;%1&apos;</source>
-      <translation type="unfinished">JSON error &apos;%1&apos;</translation>
+      <translation>Ошибка JSON &apos;%1&apos;</translation>
     </message>
     <message>
       <location filename="../src/librssguard-standard/src/parsers/jsonparser.cpp" line="128"/>
@@ -6264,7 +6236,7 @@ List of supported readers:</source>
     <message>
       <location filename="../src/librssguard-standard/src/parsers/icalparser.cpp" line="69"/>
       <source>iCalendar error &apos;%1&apos;</source>
-      <translation type="unfinished">iCalendar error &apos;%1&apos;</translation>
+      <translation>Ошибка iCalendar &apos;%1&apos;</translation>
     </message>
     <message>
       <location filename="../src/librssguard-standard/src/parsers/icalparser.cpp" line="82"/>
@@ -6281,6 +6253,16 @@ List of supported readers:</source>
       <source>This service offers integration with standard online RSS/RDF/ATOM/JSON/Sitemap/iCalendar feeds and podcasts.</source>
       <translation type="unfinished">This service offers integration with standard online RSS/RDF/ATOM/JSON/Sitemap/iCalendar feeds and podcasts.</translation>
     </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditentrypoint.cpp" line="33"/>
+      <source>Reddit (WIP, no real functionality yet)</source>
+      <translation type="unfinished">Reddit (WIP, no real functionality yet)</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditentrypoint.cpp" line="41"/>
+      <source>Simplistic Reddit client.</source>
+      <translation type="unfinished">Simplistic Reddit client.</translation>
+    </message>
   </context>
   <context>
     <name>QtMultimediaBackend</name>
@@ -6292,7 +6274,7 @@ List of supported readers:</source>
     <message>
       <location filename="../src/librssguard/gui/mediaplayer/qtmultimedia/qtmultimediabackend.cpp" line="85"/>
       <source>Loading...</source>
-      <translation type="unfinished">Loading...</translation>
+      <translation>Загрузка...</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/mediaplayer/qtmultimedia/qtmultimediabackend.cpp" line="88"/>
@@ -6307,7 +6289,7 @@ List of supported readers:</source>
     <message>
       <location filename="../src/librssguard/gui/mediaplayer/qtmultimedia/qtmultimediabackend.cpp" line="94"/>
       <source>Buffering...</source>
-      <translation type="unfinished">Buffering...</translation>
+      <translation>Буферизация...</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/mediaplayer/qtmultimedia/qtmultimediabackend.cpp" line="97"/>
@@ -6458,6 +6440,185 @@ List of supported readers:</source>
     </message>
   </context>
   <context>
+    <name>RedditAccountDetails</name>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="17"/>
+      <source>Username</source>
+      <translation>Логин</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="33"/>
+      <source>OAuth 2.0 settings</source>
+      <translation>Настройки OAuth 2.0</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="39"/>
+      <source>Client ID</source>
+      <translation>Идентификатор клиента</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="52"/>
+      <source>Client secret</source>
+      <translation>Секрет клиента</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="65"/>
+      <source>Redirect URL</source>
+      <translation>Redirect URL</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="80"/>
+      <source>Get my credentials</source>
+      <translation>Получить учетные данные</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="110"/>
+      <source>Only download newest X articles per feed</source>
+      <translation>Загружать только Х новейших статей для канала</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="134"/>
+      <source>&amp;Login</source>
+      <translation>Логин (&amp;L)</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.ui" line="163"/>
+      <source>Download unread articles only</source>
+      <translation>Загружать только непрочитанные статьи</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="15"/>
+      <source>You have to fill in your client ID/secret and also fill in correct redirect URL.</source>
+      <translation>Вы должны ввести свой идентификатор / секрет клиента, а также указать правильный URL-адрес перенаправления.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="18"/>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="19"/>
+      <source>Not tested yet.</source>
+      <translation>Ещё не протестировано.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="21"/>
+      <source>User-visible username</source>
+      <translation>Имя пользователя, видное для всех</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="55"/>
+      <source>No username entered.</source>
+      <translation>Нет логина.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="58"/>
+      <source>Some username entered.</source>
+      <translation>Введен некоторый логин.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="64"/>
+      <source>You did not grant access.</source>
+      <translation>Отказано в доступе.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="65"/>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="73"/>
+      <source>There was error during testing.</source>
+      <translation>Произошла ошибка во время тестирования.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="72"/>
+      <source>There is error: %1</source>
+      <translation>Произошла ошибка: %1 </translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="78"/>
+      <source>Tested successfully. You may be prompted to login once more.</source>
+      <translation>Протестировано успешно. Вам могут предложить войти ещё раз.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="79"/>
+      <source>Your access was approved.</source>
+      <translation>Ваш доступ одобрен.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="111"/>
+      <source>Preconfigured client ID/secret will be used.</source>
+      <translation>Будет использоваться предварительно настроенный идентификатор / секрет клиента.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="113"/>
+      <source>Empty value is entered.</source>
+      <translation>Введено пустое значение.</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/gui/redditaccountdetails.cpp" line="117"/>
+      <source>Some value is entered.</source>
+      <translation>Введено некоторое значение.</translation>
+    </message>
+  </context>
+  <context>
+    <name>RedditCategory</name>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditcategory.cpp" line="17"/>
+      <source>Subscriptions</source>
+      <translation type="unfinished">Subscriptions</translation>
+    </message>
+  </context>
+  <context>
+    <name>RedditNetworkFactory</name>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="96"/>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="132"/>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="220"/>
+      <source>you are not logged in</source>
+      <translation>вы не вошли</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="302"/>
+      <source>Reddit: authentication error</source>
+      <translation type="unfinished">Reddit: authentication error</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="303"/>
+      <source>Click this to login again. Error is: &apos;%1&apos;</source>
+      <translation>Нажмите здесь, чтобы войти снова. Ошибка: &apos;%1&apos;</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="306"/>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="319"/>
+      <source>Login</source>
+      <translation>Логин</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="315"/>
+      <source>Reddit: authorization denied</source>
+      <translation type="unfinished">Reddit: authorization denied</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditnetworkfactory.cpp" line="316"/>
+      <source>Click this to login again.</source>
+      <translation>Нажмите здесь, чтобы войти снова.</translation>
+    </message>
+  </context>
+  <context>
+    <name>RedditServiceRoot</name>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditserviceroot.cpp" line="132"/>
+      <source>Authentication status: %1
+Login tokens expiration: %2</source>
+      <translation>Состояние аутентификации: %1
+Срок действия токенов входа: %2</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditserviceroot.cpp" line="134"/>
+      <source>logged-in</source>
+      <translation>вход выполнен</translation>
+    </message>
+    <message>
+      <location filename="../src/librssguard-reddit/src/redditserviceroot.cpp" line="134"/>
+      <source>NOT logged-in</source>
+      <translation>вход НЕ выполнен</translation>
+    </message>
+  </context>
+  <context>
     <name>RootItem</name>
     <message numerus="yes">
       <location filename="../src/librssguard/services/abstract/rootitem.cpp" line="144"/>
@@ -6504,7 +6665,7 @@ List of supported readers:</source>
     <message>
       <location filename="../src/librssguard/services/abstract/search.cpp" line="111"/>
       <source>Regular expression: %1</source>
-      <translation type="unfinished">Regular expression: %1</translation>
+      <translation>Регулярное выражение: %1</translation>
     </message>
   </context>
   <context>
@@ -7574,7 +7735,7 @@ Description: %3</source>
     <message>
       <location filename="../src/librssguard/gui/settings/settingslocalization.cpp" line="25"/>
       <source>Help us to improve %1 &lt;a href=&quot;%2&quot;&gt;translations&lt;/a&gt;.</source>
-      <translation type="unfinished">Help us to improve %1 &lt;a href=&quot;%2&quot;&gt;translations&lt;/a&gt;.</translation>
+      <translation>Помогите нам улучшить %1 &lt;a href=&quot;%2&quot;&gt;переводы&lt;/a&gt;.</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/settings/settingslocalization.cpp" line="115"/>
@@ -7586,7 +7747,7 @@ Description: %3</source>
     <message>
       <location filename="../src/librssguard/gui/settings/settingslocalization.cpp" line="120"/>
       <source>Translations provided by: %1</source>
-      <translation type="unfinished">Translations provided by: %1</translation>
+      <translation>Переводы предоставлены: %1</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/settings/settingslocalization.cpp" line="169"/>
@@ -7654,7 +7815,7 @@ Description: %3</source>
     <message>
       <location filename="../src/librssguard/gui/settings/settingsmediaplayer.h" line="31"/>
       <source>Media player</source>
-      <translation type="unfinished">Media player</translation>
+      <translation>Медиаплеер</translation>
     </message>
   </context>
   <context>
@@ -8557,7 +8718,7 @@ Unread news: %2</source>
     <message>
       <location filename="../src/librssguard/gui/tabwidget.cpp" line="261"/>
       <source>Media player</source>
-      <translation type="unfinished">Media player</translation>
+      <translation>Медиаплеер</translation>
     </message>
     <message>
       <location filename="../src/librssguard/gui/tabwidget.cpp" line="287"/>

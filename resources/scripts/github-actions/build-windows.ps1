@@ -10,6 +10,21 @@ $git_tag = git describe --tags $git_revlist
 $git_revision = git rev-parse --short HEAD
 $old_pwd = $pwd.Path
 
+# Functions.
+function Fetch-Latest-Release([string]$OrgRepo, [string]$NameRegex) {
+  $releases_url = "https://api.github.com/repos/" + $OrgRepo +"/releases"
+  $releases_req = Invoke-WebRequest -Uri "$releases_url" -Headers @{ "Authorization" = "Bearer $env:GITHUB_TOKEN" }
+  $releases_json = $releases_req.Content | ConvertFrom-Json
+  $releases_release = $releases_json[0]
+  $asset = $releases_release.assets | Where-Object {$_.name -match $NameRegex} | Select-Object
+
+  Add-Member -InputObject $asset -NotePropertyName "tag_name" -NotePropertyValue $releases_release.tag_name.Substring(1)
+
+  Write-Host $asset
+
+  return $asset
+}
+
 # Prepare environment.
 Install-Module Pscx -Scope CurrentUser -AllowClobber -Force
 Install-Module VSSetup -Scope CurrentUser -AllowClobber -Force
@@ -27,7 +42,7 @@ if ($use_qt5 -eq "ON") {
   $use_qtmultimedia = "ON"
 }
 else {
-  $qt_version = "6.6.3"
+  $qt_version = "6.7.2"
 
   if ($use_webengine -eq "ON") {
     $use_libmpv = "ON"
@@ -41,27 +56,25 @@ else {
 
 $is_qt_6 = $qt_version.StartsWith("6")
 
-$maria_version = "11.3.2"
+$maria_version = "11.4.2"
 $maria_link = "https://archive.mariadb.org/mariadb-$maria_version/winx64-packages/mariadb-$maria_version-winx64.zip"
 $maria_output = "maria.zip"
 
-$cmake_version = "3.29.2"
-$cmake_link = "https://github.com/Kitware/CMake/releases/download/v$cmake_version/cmake-$cmake_version-windows-x86_64.zip"
+$cmake_asset = Fetch-Latest-Release -OrgRepo "Kitware/CMake" -NameRegex "cmake-.+-windows-x86_64\.zip"
+$cmake_version = $cmake_asset.tag_name
+$cmake_link = $cmake_asset.browser_download_url
 $cmake_output = "cmake.zip"
 
-$zlib_version = "1.3.1"
-$zlib_link = "https://github.com/madler/zlib/archive/refs/tags/v$zlib_version.zip"
+$zlib_asset = Fetch-Latest-Release -OrgRepo "madler/zlib" -NameRegex "zlib.+\.zip$"
+$zlib_version = $zlib_asset.tag_name
+$zlib_link = $zlib_asset.browser_download_url
 $zlib_output = "zlib.zip"
 
-$libmpv_date = "2024-05-20"
-$libmpv_commit = "e6e0aaa"
-$libmpv_version = "{0}-git-{1}"-f $libmpv_date.Replace("-", ""), $libmpv_commit
-$libmpv_link = "https://github.com/zhongfly/mpv-winbuild/releases/download/$libmpv_date-$libmpv_commit/mpv-dev-x86_64-$libmpv_version.7z"
+$libmpv_link = Fetch-Latest-Release -OrgRepo "zhongfly/mpv-winbuild" -NameRegex "mpv-dev-x86_64-2.+7z" | Select-Object -ExpandProperty browser_download_url
 $libmpv_output = "mpv.zip"
 
-$ytdlp_version = "2024.04.09"
-$ytdlp_link = "https://github.com/yt-dlp/yt-dlp/releases/download/$ytdlp_version/yt-dlp.exe"
-$libmpv_output = "yt-dlp.exe"
+$ytdlp_link = Fetch-Latest-Release -OrgRepo "yt-dlp/yt-dlp" -NameRegex "yt-dlp.exe" | Select-Object -ExpandProperty browser_download_url
+$ytdlp_output = "yt-dlp.exe"
 
 Invoke-WebRequest -Uri "$maria_link" -OutFile "$maria_output"
 & ".\resources\scripts\7za\7za.exe" x "$maria_output"
@@ -72,16 +85,15 @@ Invoke-WebRequest -Uri "$cmake_link" -OutFile "$cmake_output"
 Invoke-WebRequest -Uri "$zlib_link" -OutFile "$zlib_output"
 & ".\resources\scripts\7za\7za.exe" x "$zlib_output"
 
-# User custom UA because SourceForge is very picky.
-Invoke-WebRequest -UserAgent "Wget" -Uri "$libmpv_link" -OutFile "$libmpv_output"
+Invoke-WebRequest -Uri "$libmpv_link" -OutFile "$libmpv_output"
 & ".\resources\scripts\7za\7za.exe" x "$libmpv_output" -ompv
 
-Invoke-WebRequest -Uri "$ytdlp_link" -OutFile "$libmpv_output"
+Invoke-WebRequest -Uri "$ytdlp_link" -OutFile "$ytdlp_output"
 
 $cmake_path = "$old_pwd\cmake-$cmake_version-windows-x86_64\bin\cmake.exe"
 $zlib_path = "$old_pwd\zlib-$zlib_version"
 $libmpv_path = "$old_pwd\mpv"
-$ytdlp_path = "$old_pwd\$libmpv_output"
+$ytdlp_path = "$old_pwd\$ytdlp_output"
 
 # Download Qt itself.
 $qt_path = "$old_pwd\qt"
